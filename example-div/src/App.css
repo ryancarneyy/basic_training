@@ -1,0 +1,44 @@
+
+/* Getting rid of default HTML Padding and margin */
+/* body,html {
+  margin: 0;
+  padding: 0;
+} */
+
+
+
+/* Styling for basic div example */
+
+/* .container {
+    background-color: lightblue;
+    width:100%;
+    padding: 5px;
+}  */
+
+
+/* Styling for example elements */
+
+#hello{
+  color:red;
+}
+
+#block{
+  height: 700px;
+}
+
+
+
+
+
+
+
+
+
+/* Grid layout for cards */
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+

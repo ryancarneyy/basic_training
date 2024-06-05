@@ -1,7 +1,11 @@
 import React from "react";
 import '../styles/IncrementButton.css'
 
-const IncrementButton = ({count, incrementFunction}) => {
+const IncrementButton = (props) => {
+    // using props is convention in order to let other developers know that you are using paramets
+    // define parameters inside component
+    const {count, incrementFunction} = props;
+
     return(
         <div className="increment-button">
             <button onClick={incrementFunction}>Click Me!</button>

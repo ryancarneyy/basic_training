@@ -2,11 +2,12 @@ import './App.css';
 import FloatingCard from './components/FloatingCard'
 import { useState } from 'react';
 import puppy from './images/puppy.jpeg'
+import IncrementButton from './components/IncrementButton'
 
 
 function App() {
 
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);           // useState example
 
   //                                                  //  Example for basic div
   // return (
@@ -56,11 +57,11 @@ function App() {
   
 
                                                    //  Example of a componenet from another file
-  return (
-    <div className='grid-layout'>
-      <FloatingCard />
-    </div>
-  );
+  // return (
+  //   <div className='grid-layout'>
+  //     <FloatingCard />
+  //   </div>
+  // );
   
 
   // function printCards(num) {
@@ -76,6 +77,15 @@ function App() {
   //   <div className='grid-layout'>
   //     {printCards(20)}
   //   </div>
+  // );
+
+  // const incrementCount = () => {                     // Example of passing parameters into a componenet
+  //   setCount(count+1);
+  // }
+  // return (
+  //   <>
+  //     <IncrementButton count={count} incrementFunction={incrementCount}></IncrementButton>
+  //   </>
   // );
 
 }

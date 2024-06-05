@@ -2,7 +2,8 @@
 
 IF YOU RUN INTO PROBLEMS AT ANY POINT IN YOUR INSTALLATION AND SETUP:
 
-1. Use the web (I find ChatGPT is the most useful) to figure out what is wrong.
+1. Use the web (I find ChatGPT is the most useful) to figure out what is wrong. 
+2. Use the web some more (maybe youtube this time, if no AI could figure out your problem), you got it!
 2. If this doesn't work, reach out to me at ryancarney771@ucla.edu and hopefully I can help you figure it out before our session
 
 

@@ -48,7 +48,7 @@ IF YOU RUN INTO PROBLEMS AT ANY POINT IN YOUR INSTALLATION AND SETUP:
   - This simulates the apple terminal or windows command prompt that we were working with earlier.
 - After in the terminal, enter the command:
 
-  npx create-react-app project_namepp
+  npx create-react-app project_name
 
 - If you see a bunch of files + directories get added to your folder, run:
 
@@ -63,3 +63,5 @@ IF YOU RUN INTO PROBLEMS AT ANY POINT IN YOUR INSTALLATION AND SETUP:
 
 
 - If all of these steps work and you have a working React website, congrats! I am excited to start you guys on your web development mission!
+- We will be using this code as an example for your first lesson, so feel free to skim over it in order to get somewhat familiar!
+- Also, within this github repository, I have attached my actual example code that I will be showing you guys! Check it out if you wish, but we will also be going over it and how it all works in class.

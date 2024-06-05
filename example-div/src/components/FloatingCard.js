@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/FloatingCard.css'; // Import CSS file for styling
 
 const FloatingCard = () => {
-
     return (
     <div className="card-container">
         <div className="card">

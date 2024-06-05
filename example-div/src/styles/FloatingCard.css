@@ -9,11 +9,9 @@
     transform-style: preserve-3d;
     margin: 5px;
   }
-  
   .card:hover {
     transform: translateY(-10px);
   }
-  
   .card-content {
     padding: 20px;
   }

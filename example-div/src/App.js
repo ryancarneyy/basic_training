@@ -4,6 +4,7 @@ import { useState } from 'react';
 import puppy from './images/puppy.jpeg'
 import IncrementButton from './components/IncrementButton'
 import './styles/FloatingCard.css'
+import DocumentTitle from './components/DocumentTitle';
 
 
 function App() {
@@ -128,6 +129,12 @@ function App() {
   //     <IncrementButton count={count} incrementFunction={incrementCount}></IncrementButton>
   //   </>
   // );
+
+  return (
+    <>
+      <DocumentTitle></DocumentTitle>
+    </>
+  )
 
 }
 

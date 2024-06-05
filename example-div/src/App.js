@@ -57,60 +57,41 @@ function App() {
   // );
   
 
-                                                   //  Example of no React Subcomponents
-//   return (
-//   <div className='grid-layout'>
-//     <div className="card-container">
-//       <div className="card">
-//         <div className="card-content">
-//             <h2>Card Title</h2>
-//             <p>This is the card content.</p>
-//         </div>
-//       </div>
-//     </div>
-//     <div className="card-container">
-//       <div className="card">
-//         <div className="card-content">
-//             <h2>Card Title</h2>
-//             <p>This is the card content.</p>
-//         </div>
-//       </div>
-//     </div>
-//     <div className="card-container">
-//       <div className="card">
-//         <div className="card-content">
-//             <h2>Card Title</h2>
-//             <p>This is the card content.</p>
-//         </div>
-//       </div>
-//     </div>
-//     <div className="card-container">
-//       <div className="card">
-//         <div className="card-content">
-//             <h2>Card Title</h2>
-//             <p>This is the card content.</p>
-//         </div>
-//       </div>
-//     </div>
-//     <div className="card-container">
-//       <div className="card">
-//         <div className="card-content">
-//             <h2>Card Title</h2>
-//             <p>This is the card content.</p>
-//         </div>
-//       </div>
-//     </div>
-//     <div className="card-container">
-//       <div className="card">
-//         <div className="card-content">
-//             <h2>Card Title</h2>
-//             <p>This is the card content.</p>
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-  
-// );
+  //                                                  //  Example of no React Subcomponents
+  // return (
+  //   <div className='grid-layout'>
+  //     <div className="card">
+  //       <div className="card-content">
+  //           <h2>Card Title</h2>
+  //           <p>This is the card content.</p>
+  //       </div>
+  //     </div>
+  //     <div className="card">
+  //       <div className="card-content">
+  //           <h2>Card Title</h2>
+  //           <p>This is the card content.</p>
+  //       </div>
+  //     </div>
+  //     <div className="card">
+  //       <div className="card-content">
+  //           <h2>Card Title</h2>
+  //           <p>This is the card content.</p>
+  //       </div>
+  //     </div>
+  //     <div className="card">
+  //       <div className="card-content">
+  //           <h2>Card Title</h2>
+  //           <p>This is the card content.</p>
+  //       </div>
+  //     </div>
+  //     <div className="card">
+  //       <div className="card-content">
+  //           <h2>Card Title</h2>
+  //           <p>This is the card content.</p>
+  //       </div>
+  //     </div>
+  //   </div>
+  // );
 
   // return (                                         // Example of reusing a component to shorten code
   //   <div className='grid-layout'>

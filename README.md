@@ -1,10 +1,21 @@
+# Visual Studio Code
+
+- Visual Studio Code is an IDE (Integrated Development Environment) which is used to write, edit, debug, and run your code.
+- This is one of the most popular IDEs used today, because of it's simple but robust nature.
+
+# Installing Visual Studio Code
+
+- Check out https://code.visualstudio.com/docs/setup/setup-overview in order to install the correct version of VSCode for your device!
+
 # Installing NPM and create-react-app
+
+There are many tutorials on youtube as well if you would like to follow them instead,
+but this tutorial will ensure that you have started a base react project that we can use interactively in class!
 
 IF YOU RUN INTO PROBLEMS AT ANY POINT IN YOUR INSTALLATION AND SETUP:
 
-1. Use the web (I find ChatGPT is the most useful) to figure out what is wrong. 
+1. Use the web to figure out what is wrong. 
 2. Use the web some more (maybe youtube this time, if no AI could figure out your problem), you got it!
-3. If this doesn't work, reach out to me at ryancarney771@ucla.edu and hopefully I can help you figure it out before our session
 
 
 - First, go to Node.js in your browser, then navigate to the Downloads tab
@@ -41,6 +52,7 @@ IF YOU RUN INTO PROBLEMS AT ANY POINT IN YOUR INSTALLATION AND SETUP:
 
 - Go onto your desktop and make a folder
 - Open VSCode or IDE of your choice and choose the folder you just created
+  - In VSCode, on the Welcome page, there is an "Open..." button. This is where you go to open your folder
 - In the bottom left of your window, you will see x 0 ! 0, click on it.
   - This should open up a window within your VSCode
 - At this top of this window, you might see 4 buttons,

@@ -14,8 +14,8 @@ but this tutorial will ensure that you have started a base react project that we
 
 IF YOU RUN INTO PROBLEMS AT ANY POINT IN YOUR INSTALLATION AND SETUP:
 
-1. Use the web to figure out what is wrong. 
-2. Use the web some more (maybe youtube this time, if no AI could figure out your problem), you got it!
+1. Use the web to figure out what is wrong. There are many good guides online!
+2. Use the web some more (maybe youtube this time, or some AI to figure out your problem), you got it!
 
 
 - First, go to Node.js in your browser, then navigate to the Downloads tab

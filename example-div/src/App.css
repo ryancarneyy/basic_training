@@ -5,8 +5,6 @@
   padding: 0;
 } */
 
-
-
 /* Styling for basic div example */
 
 /* .container {
@@ -16,29 +14,100 @@
 }  */
 
 
-/* Styling for example elements */
+/* Styling for Slide 8 */
 
-#hello{
+/* .container {
+  height: 100vh;
+  display: flex
+}
+
+.right-side {
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.left-side {
+  width: 50%;
+  height: 100%;
+  background-color: beige;
+} */
+
+/* End of Slide 8 */
+
+
+
+/* Styling for example elements SLIDE 9 */
+
+/* #hello{
   color:red;
 }
 
 #block{
   height: 700px;
+} */
+
+/* End of Slide 9 */
+
+
+/* Styling for SLIDE 15 */
+
+/* h1 {
+  margin: 0; Gets rid of default margin on h1
+} */
+#title-div{
+  text-align: center; /* aligns items centrally (text-align used when no display property) */
+  margin: 2px; 
+  background-color: gainsboro; 
+}
+
+#mid-div {
+  display: flex; /* flexible box layout (default is a row layout, most commonly used) */ 
+  margin: 2px;
+}
+#left-div {
+  width: 35%; 
+  text-align: center; 
+  background-color: gainsboro;
+  margin-left: 2px;
+}
+#right-div {
+  width: 65%;
+  text-align: center;
+  background-color: gainsboro;
+  margin-left: 2px;
+}
+
+li {
+  font-size: 40px;
 }
 
 
 
+#grid-div {
+  margin-top: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Sets # of columns for the grid*/
+  background-color: gainsboro;
+  width: 95%;
+  margin: 0 auto; /* Centers the div */
+  align-items: center; /* Centers grid box's items vertically */
+  justify-items: center; /* Centers grid box's items horizontally */
+}
 
-
-
+.ucla-img {
+  width: 250px;
+  padding: 5px;
+} 
+/* End of Slide 15 */
 
 
 
 /* Grid layout for cards */
 
-.grid-layout {
+/* .grid-layout {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 6px;
-}
+} */
 

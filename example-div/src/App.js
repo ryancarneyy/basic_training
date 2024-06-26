@@ -2,6 +2,7 @@ import './App.css';
 import FloatingCard from './components/FloatingCard'
 import { useState } from 'react';
 import puppy from './images/puppy.jpeg'
+import ucla from './images/ucla.png'
 import IncrementButton from './components/IncrementButton'
 import './styles/FloatingCard.css'
 import DocumentTitle from './components/DocumentTitle';
@@ -9,7 +10,7 @@ import DocumentTitle from './components/DocumentTitle';
 
 function App() {
 
-  const [count, setCount] = useState(0);           // useState example
+  // const [count, setCount] = useState(0);           // useState example
 
   //                                                  //  Example for basic div
   // return (
@@ -21,7 +22,19 @@ function App() {
   //   </div>
   // );
 
-                                                    // Example for Different types of elements
+
+  // return (                                              // Slide 8
+  //   <div className="container"> 
+  //     <div className="right-side">
+  //       <h1 className="title">Right Side</h1>
+  //     </div>
+  //     <div className="left-side">
+  //       <h1 className="title">Left Side</h1>
+  //     </div>
+  //   </div>
+  // );
+
+                                                    //  SLIDE 9
   // return (
   //   <div className='example-elements'>
   //     <h1>Header 1</h1>
@@ -33,6 +46,7 @@ function App() {
   //     <br></br>
   //     <br></br>
   //     <br></br>
+  // <button onClick={console.log('Hello')}>Say hello!</button>
   //     <a href='https://www.ucla.edu/'>
   //       <p>Click Me!</p>
   //     </a>
@@ -45,7 +59,40 @@ function App() {
   //   </div>
   // );
 
-  //                                                  //  Example for inline-styling
+                                                // SLIDE 15 - CSS Layout
+  // return (
+  //   <>
+  //     <div id="title-div">
+  //       <h1>Example CSS</h1>
+  //     </div>
+  //     <div id="mid-div">
+  //       <div id="left-div">
+  //         <ul>
+  //           <li>Item 1</li>
+  //           <li>Item 2</li>
+  //           <li>Item 3</li>
+  //           <li>Item 4</li>
+  //           <li>Item 5</li>
+  //         </ul>
+  //       </div>
+  //       <div id="right-div">
+  //         <img src={puppy} alt="puppy"></img>
+  //       </div>
+  //     </div>
+  //     <div id="grid-div">
+  //       <img className="ucla-img" src={ucla}></img>
+  //       <img className="ucla-img" src={ucla}></img>
+  //       <img className="ucla-img" src={ucla}></img>
+  //       <img className="ucla-img" src={ucla}></img>
+  //       <img className="ucla-img" src={ucla}></img>
+  //       <img className="ucla-img" src={ucla}></img>
+  //       <img className="ucla-img" src={ucla}></img>
+  //       <img className="ucla-img" src={ucla}></img>
+  //     </div>
+  //   </>
+  // )
+
+  //                                                  //  Example for inline-styling - SLIDE 15 END
   // return (
   //   <div>
   //     <h1 style={{ backgroundColor: 'yellow', fontSize: '24px' }}>
@@ -58,7 +105,7 @@ function App() {
   // );
   
 
-  //                                                  //  Example of no React Subcomponents
+  //                                                  //  Example of no React Subcomponents - SLIDE 
   // return (
   //   <div className='grid-layout'>
   //     <div className="card">
@@ -130,11 +177,11 @@ function App() {
   //   </>
   // );
 
-  return (
-    <>
-      <DocumentTitle></DocumentTitle>
-    </>
-  )
+  // return (
+  //   <>
+  //     <DocumentTitle></DocumentTitle>
+  //   </>
+  // )
 
 }
 

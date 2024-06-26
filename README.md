@@ -84,3 +84,12 @@ IF YOU RUN INTO PROBLEMS AT ANY POINT IN YOUR INSTALLATION AND SETUP:
 - Here is a great tutorial from React in order to learn how to use the Library!
 
 https://react.dev/learn/tutorial-tic-tac-toe
+
+
+# Installing Git
+
+- Github has provided a great tutorial on instaling git, along with some information on some of the most common git commands! 
+
+https://github.com/git-guides/install-git
+
+- PLEASE install git when you get the chance, and if you have time look into what Git is and some of the base commands! This will only help with our future lessons.
